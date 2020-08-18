@@ -1,15 +1,15 @@
 {
-  "name": "vue-numeric",
+  "name": "philippelux-vue-numeric",
   "version": "2.3.0",
   "description": "Input field component to display currency value based on Vue.",
   "author": "Kevin Ongko",
   "main": "dist/vue-numeric.min.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kevinongko/vue-numeric.git"
+    "url": "git+https://github.com/philippelux/vue-numeric.git"
   },
   "bugs": {
-    "url": "https://github.com/kevinongko/vue-numeric/issues"
+    "url": "https://github.com/philippelux/vue-numeric/issues"
   },
   "keywords": [
     "component",
@@ -22,7 +22,7 @@
     "vue",
     "vue.js"
   ],
-  "homepage": "https://github.com/kevinongko/vue-numeric#readme",
+  "homepage": "https://github.com/philippelux/vue-numeric#readme",
   "license": "MIT",
   "dependencies": {
     "accounting-js": "^1.1.1"
