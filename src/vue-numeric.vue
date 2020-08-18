@@ -360,6 +360,7 @@ export default {
      * @return {Number}
      */
     unformat (value) {
+      if (this.decimalSeparatorSymbol === ",") value = parseFloat(value.replace ? value.replace(",",".") : value)
       const toUnformat = typeof value === 'string' && value === '' ? this.emptyValue : value
       return accounting.unformat(toUnformat, this.decimalSeparatorSymbol)
     }
